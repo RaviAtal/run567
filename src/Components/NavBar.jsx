@@ -1,13 +1,19 @@
 import React from 'react'
+import nav_logo from '../Assets/Image/Png/NavBar/Nav_logo.png'
 
 export const NavBar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-body-terti ary bg_purple_common fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Offcanvas navbar
-          </a>
+          <div className=" d-flex">
+            <img class="navbar-brand" src={nav_logo} alt="nav_logo" />\
+            <input
+              className=" bg_light_purple border-0 ps-2 w_00"
+              type="search"
+              placeholder="Events, Markets, and more"
+            />
+          </div>
           <button
             class="navbar-toggler"
             type="button"

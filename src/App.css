@@ -78,8 +78,14 @@
   font-weight: 800 !important;
 }
 
-
 /* ------- common------- */
-.bg_purple_common{
-  background-color: #4B0083;
+.bg_purple_common {
+  background-color: #4b0083;
+}
+/*-------- nav------- */
+.bg_light_purple {
+  background-color: #5e1f8d !important;
+}
+.w_00 {
+  min-width: 44.5px;
 }
