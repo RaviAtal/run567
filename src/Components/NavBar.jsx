@@ -56,7 +56,7 @@ export const NavBar = () => {
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-5 pe-3 align-iten-center">
                 <li class="nav-item ">
                   <Link
-                    class="nav-link active ff_inter fw_400 fs_16 text-light nav_text"
+                    class="text-nowrap nav-link active ff_inter fw_400 fs_16 text-light nav_text"
                     aria-current="page"
                     to="/Sports"
                   >
@@ -65,7 +65,7 @@ export const NavBar = () => {
                 </li>
                 <li class="nav-item">
                   <Link
-                    class="nav-link active ff_inter fw_400 fs_16 text-light nav_text"
+                    class="text-nowrap nav-link active ff_inter fw_400 fs_16 text-light nav_text"
                     aria-current="page"
                     to="/Casino"
                   >
@@ -74,7 +74,7 @@ export const NavBar = () => {
                 </li>
                 <li class="nav-item">
                   <Link
-                    class="nav-link active ff_inter fw_400 fs_16 text-light nav_text"
+                    class="text-nowrap nav-link active ff_inter fw_400 fs_16 text-light nav_text"
                     aria-current="page"
                     to="/Promotions"
                   >
@@ -83,7 +83,7 @@ export const NavBar = () => {
                 </li>
                 <li class="nav-item">
                   <Link
-                    class="nav-link active ff_inter fw_400 fs_16 text-light nav_text"
+                    class="text-nowrap nav-link active ff_inter fw_400 fs_16 text-light nav_text"
                     aria-current="page"
                     to="/Aviator"
                   >
@@ -93,12 +93,12 @@ export const NavBar = () => {
               </ul>
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-5 pe-3">
                 <li class="nav-item">
-                  <button className="btn sign_btn ff_inter fs_16 fw_600 text-light px-3 py-2">
+                  <button className="text-nowrap btn sign_btn ff_inter fs_16 fw_600 text-light px-3 py-2">
                     SIGN IN
                   </button>
                 </li>
                 <li class="nav-item">
-                  <button className="btn sign_btn ff_inter fs_16 fw_600 text-light px-3 py-2">
+                  <button className="text-nowrap btn sign_btn ff_inter fs_16 fw_600 text-light px-3 py-2">
                     REGISTER
                   </button>
                 </li>

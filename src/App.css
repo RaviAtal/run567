@@ -22,6 +22,8 @@
   --fs-22: 22px;
   --fs-24: 24px;
   --fs-26: 26px;
+  --fs-34: 34px;
+  --fs-72: 72px;
 }
 
 /* -------FONT SIZE------- */
@@ -57,6 +59,14 @@
   font-size: var(--fs-26) !important;
 }
 
+.fs_34 {
+  font-size: var(--fs-34) !important;
+}
+
+.fs_72 {
+  font-size: var(--fs-72) !important;
+}
+
 /* -------FONT WEIGHT------- */
 .fw_400 {
   font-weight: 400 !important;
@@ -82,6 +92,13 @@
 .bg_purple_common {
   background-color: #4b0083;
 }
+.bg_voilat {
+  background-color: #02091a;
+}
+
+.text_purple {
+  color: #a529ff !important;
+}
 /*-------- nav------- */
 .bg_light_purple {
   background-color: #5e1f8d !important;
@@ -105,4 +122,11 @@
 
 .sign_btn {
   background-color: #9a3edd !important;
+}
+/*-------- Home------- */
+.sports_Betting_btn {
+  background-color: #362115 !important;
+}
+.sports_Betting_btn:hover {
+  box-shadow: inset 0px 0px 20px 4px #9a3edd;
 }
